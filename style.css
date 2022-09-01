@@ -360,6 +360,10 @@ body {
   background-color: #1A1A1A;
 }
 
+.popover-term {
+  color: #FFFFFF;
+}
+
 .popover-definition {
   margin: 0;
   margin-left: 3px;
@@ -716,7 +720,7 @@ body {
 }
 
 .page-links {
-  position: absolute;
+  position: relative;
   text-decoration: none;
   z-index: 1;
   display: flex;
@@ -735,8 +739,10 @@ body {
 }
 
 .more-detailed {
-  top: 213px;
-  min-width: 220px;
+  /* top: 213px;
+  min-width: 220px; */
+  top: -88px;
+    width: 221px;
 }
 
 
@@ -780,8 +786,10 @@ body {
 
 .slider-list {
   position: absolute;
-  right: -214px;
-  bottom: 243px;
+  /* right: -214px;
+  bottom: 243px; */
+  left: 1075px;
+    bottom: 242px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -828,6 +836,7 @@ body {
 
 .products {
   min-height: 425px;
+  padding-bottom: 110px;
 }
 
 .product-wrapper {
